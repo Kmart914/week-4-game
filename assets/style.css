@@ -18,6 +18,14 @@ p {
   text-align: center;
 }
 
+#play{
+  width: 150px;
+}
+.btn-success{
+  width: 200px;
+  height:200px;
+}
+
 #winLossBox{
   background-color: salmon;
   height: 200px;
