@@ -38,16 +38,13 @@
 
     <div class="container-flex">
       <div class="col-md-4" id = "winLossBox">
-          <div id = "wins">Wins: </div>
-          <div id = "losses">Losses: </div>
+          <div class = "wins">Wins:<span  id = "winCount">0</span></div>
+          <div class = "losses">Losses:<span id = "lossCount">0</span></div>
       </div>
       <div class="col-md-2">
-        <div id = "goalBox">Goal Number:<span id="goalNumber"></span></div>
+        <div id = "goalBox">Goal Number:<span id="goalNumber">0</span></div>
       </div>
-      <div class="col-md-4">
-    <button type="button" class=" btn-success" id = "play">Start!</button>
-      </div>
-    </div>
+
 
     <div class ="container-flex" id = "buttons">
       <div class ="row col-md-12">
@@ -63,13 +60,13 @@
 
   <div class="container-flex">
     <div class="col-md-12">
-      <div id = "totalScore">Total Score:<span id="total"></span></div>
+      <div id = "total">Total Score:</div>
     </div>
   </div>
 
   <div class="container-flex">
     <div class="col-md-4">
-      <div id = "currentScore"></div>
+      <div id="currentScore"><span id="totalScore">0</span></div>
     </div>
   </div>
   <script
